@@ -39,7 +39,7 @@ while not win:
             code = code.replace("exec","print('Security risk!')")
             code = code.replace("eval","print('Security risk!')")
             newCommand = list(command)
-            if len(commands[command[0]]["args"]) > 1:
+            if len(commands[command[0]]["args"]) > 0:
                 for i in range(len(commands[command[0]]["args"])):
                     del(newCommand[0])
                 newCommand = " ".join(newCommand)
