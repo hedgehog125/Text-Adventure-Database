@@ -1,1 +1,1 @@
-{}
+{'1.0': [[True, 'Commands.json', 'https://raw.githubusercontent.com/hedgehog125/Text-Adventure-Database/master/database/Assets/Commands.json', True], [True, 'README.md', 'https://raw.githubusercontent.com/hedgehog125/Text-Adventure-Database/master/database/Assets/README.md', True], [True, 'Text adventure.py', 'https://raw.githubusercontent.com/hedgehog125/Text-Adventure-Database/master/database/Assets/Text%20adventure.py', True], [True, 'World.json', 'https://raw.githubusercontent.com/hedgehog125/Text-Adventure-Database/master/database/Assets/World.json', True]]}
