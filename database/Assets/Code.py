@@ -1,4 +1,4 @@
 def runFile(file):
-    exec(compile(open(file, "rb").read(), file, 'exec'))
+    exec(open(file, "r").read())
 
 runFile("Text adventure.py")
