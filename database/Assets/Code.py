@@ -1,1 +1,1 @@
-import Textadventure
+from Assets import Textadventure
