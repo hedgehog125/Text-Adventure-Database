@@ -31,7 +31,7 @@
 			"		else:",
 			"			print(places[currentRoom]['Dirs'][command[1]]['NoItemMess'])",
 			"	else:",
-			"		print('Going ' + command[1] + '...'),"
+			"		print('Going ' + command[1] + '...')",
 			"		moveTo(places[currentRoom]['Dirs'][command[1]]['ID'])",
 			"		if JSON['EndPlace'] == currentRoom:",
 			"			print(JSON['WinMess'])",
@@ -88,6 +88,7 @@
 			"if command[1] in places[currentRoom]['Things']:",
 			"	if places[currentRoom]['Things'][command[1]]['Pickupable'] == 'True':",
 			"		inventory.append(command[1])",
+			"		del(places[currentRoom]['Things'][command[1]])",
 			"		print('Added ' + command[1] + ' to your inventory.')",
 			"	else:",
 			"		print('I cannot pick that up!')",
