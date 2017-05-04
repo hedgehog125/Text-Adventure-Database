@@ -128,7 +128,7 @@
 		},
 		"Mountain Path #2": {
 			"Des": "You are on the path up the mountain.",
-			"DetailDes": "To your north there is a cottage, and to the west there is a massive cave.",
+			"DetailDes": "To your north there is a cottage, and to the west there is a massive cave. The path goes back south.",
 			"Inside": "False",
 			"Things": [],
 			"Dirs": {
